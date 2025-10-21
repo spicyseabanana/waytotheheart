@@ -7,12 +7,7 @@ public static class WHATEVERYOUWANTFORNOW
     // when an "action" is performed, the current # of actions minus 1
     // when action value=0, trigger the end of the day cutscene, increase the "week" and "date" values by 1, and reset action count
     public static int actions = 12;
-    if (actions == 0)
-    {
-        week = week + 1;
-        date = date + 1;
-        actions = 12;
-    }
+   
     // day of the week
     // when action value is 0, increase the week value by 1
     // when action value is greater than 7, reset to 1.

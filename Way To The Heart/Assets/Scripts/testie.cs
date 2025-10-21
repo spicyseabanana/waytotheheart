@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class testie : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class testie : MonoBehaviour
     public TextMeshProUGUI week;
     public TextMeshProUGUI date;
     public TextMeshProUGUI season;
+    public Image time;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +23,11 @@ public class testie : MonoBehaviour
         text.text = WHATEVERYOUWANTFORNOW.gold.ToString();
         text2.text = WHATEVERYOUWANTFORNOW.actions.ToString();
         date.text = WHATEVERYOUWANTFORNOW.date.ToString();
+
+        if (WHATEVERYOUWANTFORNOW.time == 1)
+        {
+            time.sprite = Resources.Load<sprite>("time");
+        }
 
         if (WHATEVERYOUWANTFORNOW.week == 1) 
         {
