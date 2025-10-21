@@ -26,7 +26,11 @@ public class testie : MonoBehaviour
 
         if (WHATEVERYOUWANTFORNOW.time == 1)
         {
-            time.sprite = Resources.Load<sprite>("time");
+            time.sprite = Resources.Load<Sprite>("time2");
+        }
+        if (WHATEVERYOUWANTFORNOW.time == 2)
+        {
+            time.sprite = Resources.Load<Sprite>("time1");
         }
 
         if (WHATEVERYOUWANTFORNOW.week == 1) 
