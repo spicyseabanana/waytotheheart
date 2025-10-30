@@ -27,7 +27,7 @@ public static class WHATEVERYOUWANTFORNOW
     // when action value is 7, 8, or 9 = 2
     // when action value is 4, 5, 6 = 3
     // when action value is 1, 2, 3 = 4
-    public static int time = 1;
+    public static int time = 2;
     // amount of gold
     public static int gold = 0;
     
