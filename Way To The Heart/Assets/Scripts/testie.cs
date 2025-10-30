@@ -37,18 +37,8 @@ public class testie : MonoBehaviour
         text.text = WHATEVERYOUWANTFORNOW.gold.ToString();
         text2.text = WHATEVERYOUWANTFORNOW.actions.ToString();
         date.text = WHATEVERYOUWANTFORNOW.date.ToString();
-        
-        Sprite MORNING = Resources.Load<Sprite>("time1");
-        Sprite NOON = Resources.Load<Sprite>("time2");
 
-        if (WHATEVERYOUWANTFORNOW.time == 1)
-        {
-            gameObject.GetComponent<Image>().sprite = MORNING;
-        }
-        if (WHATEVERYOUWANTFORNOW.time == 2)
-        {
-            gameObject.GetComponent<Image>().sprite = NOON;
-        }
+        Daytime();
 
         if(WHATEVERYOUWANTFORNOW.week == 1) 
         {
