@@ -38,33 +38,31 @@ public class testie : MonoBehaviour
         text2.text = WHATEVERYOUWANTFORNOW.actions.ToString();
         date.text = WHATEVERYOUWANTFORNOW.date.ToString();
 
-        Daytime();
+        WHATEVERYOUWANTFORNOW.TimeCheck();
+        WHATEVERYOUWANTFORNOW.ActionCheck();
+        WHATEVERYOUWANTFORNOW.WkCheck();
+        WHATEVERYOUWANTFORNOW.DateCheck();
 
-        if(WHATEVERYOUWANTFORNOW.week == 1) 
+        if(WHATEVERYOUWANTFORNOW.week == 1)
         {
             week.text = "Monday";
         }
-        if(WHATEVERYOUWANTFORNOW.week == 2) 
+        if(WHATEVERYOUWANTFORNOW.week == 2)
         {
             week.text = "Tuesday";
         }
-        if(WHATEVERYOUWANTFORNOW.week == 3) 
-        {
-            week.text = "Wednesday";
-        }
-        if(WHATEVERYOUWANTFORNOW.week == 4)
-        {
-            week.text = "Thursday";
-        }
-        if(WHATEVERYOUWANTFORNOW.week == 5) 
-        {
-            week.text = "Friday";
-        }
 
-        if(WHATEVERYOUWANTFORNOW.season == 1) 
+
+        if (WHATEVERYOUWANTFORNOW.season == 1)
         {
             season.text = "SPRING";
         }
+        if(WHATEVERYOUWANTFORNOW.season == 2)
+        {
+            season.text = "SUMMER";
+        }
+        
+        Daytime();
         
     }
 }
