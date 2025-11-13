@@ -6,13 +6,13 @@ public static class WHATEVERYOUWANTFORNOW
     // things needed: create an "action"
     // when an "action" is performed, the current # of actions minus 1
     // when action value=0, trigger the end of the day cutscene, increase the "week" and "date" values by 1, and reset action count
-    public static int actions = 0;
+    public static int actions = 9;
    
     // day of the week
     // when action value is 0, increase the week value by 1
     // when action value is greater than 7, reset to 1.
     // assign weekdays to each number.
-    public static int week = 7;
+    public static int week = 1;
     // day of the season
     // when action value=0, increase the date value by 1
     // when week is greater than 30, trigger the end of season cutscene, increase the season value by 1, and reset date to 1
@@ -27,9 +27,9 @@ public static class WHATEVERYOUWANTFORNOW
     // when action value is 7, 8, or 9 = 2
     // when action value is 4, 5, 6 = 3
     // when action value is 1, 2, 3 = 4
-    public static int time = 2;
+    public static int time = 3;
     // amount of gold
-    public static int gold = 0;
+    public static int gold = 100;
     
     public static void ActionCheck()
     {
@@ -66,6 +66,14 @@ public static class WHATEVERYOUWANTFORNOW
         if (actions < 10 && actions > 6)
         {
             time = 2;
+        }
+        if (actions < 7 && actions > 3)
+        {
+            time = 3;
+        }
+        if (actions < 4)
+        {
+            time = 4;
         }
         Debug.Log("timecheck ran");
     }

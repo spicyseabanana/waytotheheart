@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: ac57cdb8a702c6c4abedbc601e5f29f4
+guid: c2ee4e986679e1f47ac1c1f82fc01fbf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2166834423884710649
-    second: time1_0
+      213: 6791817249930038189
+    second: time_0
   - first:
-      213: 1183279971686752027
-    second: time1_1
+      213: 6588065106299835985
+    second: time_1
   - first:
-      213: -1508572610850456846
-    second: time1_2
-  - first:
-      213: 55305596492734112
-    second: time1_3
+      213: 3185721195642547526
+    second: time_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,73 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: time1_0
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 48
-        width: 248
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70d7345629bdde1e0800000000000000
-      internalID: -2166834423884710649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: time1_1
-      rect:
-        serializedVersion: 2
-        x: 287
-        y: 129
-        width: 58
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b1f193e6ddadb6010800000000000000
-      internalID: 1183279971686752027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: time1_2
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 67
-        width: 141
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2faff540439701be0800000000000000
-      internalID: -1508572610850456846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: time1_3
+      name: time_0
       rect:
         serializedVersion: 2
         x: 44
@@ -203,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ae5a01a52c74c000800000000000000
-      internalID: 55305596492734112
+      spriteID: dab4371edc1614e50800000000000000
+      internalID: 6791817249930038189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 48
+        width: 248
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156d5222f428d6b50800000000000000
+      internalID: 6588065106299835985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time_2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 67
+        width: 141
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64de4bb7c84f53c20800000000000000
+      internalID: 3185721195642547526
       vertices: []
       indices: 
       edges: []
@@ -223,10 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      time1_0: -2166834423884710649
-      time1_1: 1183279971686752027
-      time1_2: -1508572610850456846
-      time1_3: 55305596492734112
+      time_0: 6791817249930038189
+      time_1: 6588065106299835985
+      time_2: 3185721195642547526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

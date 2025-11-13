@@ -13,13 +13,15 @@ public class testie : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Daytime();
+        
     }
     
     void Daytime()
     {
         Sprite MORNING = Resources.Load<Sprite>("time1");
         Sprite NOON = Resources.Load<Sprite>("time2");
+        Sprite AFTERNOON = Resources.Load<Sprite>("time3");
+        Sprite EVENING = Resources.Load<Sprite>("time4");
 
         if (WHATEVERYOUWANTFORNOW.time == 1)
         {
@@ -28,6 +30,14 @@ public class testie : MonoBehaviour
         if (WHATEVERYOUWANTFORNOW.time == 2)
         {
             gameObject.GetComponent<Image>().sprite = NOON;
+        }
+        if (WHATEVERYOUWANTFORNOW.time == 3)
+        {
+            gameObject.GetComponent<Image>().sprite = AFTERNOON;
+        }
+        if (WHATEVERYOUWANTFORNOW.time == 4)
+        {
+            gameObject.GetComponent<Image>().sprite = EVENING;
         }
     }
 
@@ -61,7 +71,7 @@ public class testie : MonoBehaviour
         {
             season.text = "SUMMER";
         }
-        
+
         Daytime();
         
     }
