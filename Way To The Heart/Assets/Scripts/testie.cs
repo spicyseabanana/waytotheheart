@@ -11,33 +11,39 @@ public class testie : MonoBehaviour
     public TextMeshProUGUI season;
     public Image time;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    Sprite MORNING;
+    Sprite NOON;
+    Sprite AFTERNOON;
+    Sprite EVENING;
     void Start()
     {
+        Daytime();
+        MORNING = Resources.Load<Sprite>("time1");
+        NOON = Resources.Load<Sprite>("time2");
+        AFTERNOON = Resources.Load<Sprite>("time3");
+        EVENING = Resources.Load<Sprite>("time4");
         
     }
     
     void Daytime()
     {
-        Sprite MORNING = Resources.Load<Sprite>("time1");
-        Sprite NOON = Resources.Load<Sprite>("time2");
-        Sprite AFTERNOON = Resources.Load<Sprite>("time3");
-        Sprite EVENING = Resources.Load<Sprite>("time4");
+        
 
         if (WHATEVERYOUWANTFORNOW.time == 1)
         {
-            gameObject.GetComponent<Image>().sprite = MORNING;
+            time.GetComponent<Image>().sprite = MORNING;
         }
         if (WHATEVERYOUWANTFORNOW.time == 2)
         {
-            gameObject.GetComponent<Image>().sprite = NOON;
+            time.GetComponent<Image>().sprite = NOON;
         }
         if (WHATEVERYOUWANTFORNOW.time == 3)
         {
-            gameObject.GetComponent<Image>().sprite = AFTERNOON;
+            time.GetComponent<Image>().sprite = AFTERNOON;
         }
         if (WHATEVERYOUWANTFORNOW.time == 4)
         {
-            gameObject.GetComponent<Image>().sprite = EVENING;
+            time.GetComponent<Image>().sprite = EVENING;
         }
     }
 
