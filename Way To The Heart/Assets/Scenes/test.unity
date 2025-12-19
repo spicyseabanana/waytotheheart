@@ -1097,7 +1097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1129,7 +1129,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &934980951
 RectTransform:
@@ -1163,6 +1163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fd79a25fb8b6ba489a6bb9521ba0669, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::menu
+  lineAdvancer: {fileID: 0}
   pauseMenuUI: {fileID: 1037024181}
 --- !u!1 &1037024181
 GameObject:
@@ -1636,7 +1637,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 111, y: 323.48645}
+  m_AnchoredPosition: {x: 218, y: 252}
   m_SizeDelta: {x: 288.7104, y: 55.027}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266518900
@@ -1834,7 +1835,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -328.85, y: 220}
+  m_AnchoredPosition: {x: -250, y: 104}
   m_SizeDelta: {x: 300.3036, y: 73.0264}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1527767471
@@ -3194,7 +3195,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -334.64478, y: 323.48645}
+  m_AnchoredPosition: {x: -255, y: 252}
   m_SizeDelta: {x: 288.7104, y: 55.027}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112876984
